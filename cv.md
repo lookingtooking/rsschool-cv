@@ -109,5 +109,3 @@ I'm almost 30 y.o. during last 7 year I working at factory by enginner, at this 
 
 
 
-
-
