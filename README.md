@@ -1,1 +1,1 @@
-https://lookingtooking.github.io/rsschool-cv/
+https://lookingtooking.github.io/rsschool-cv/cv
