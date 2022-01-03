@@ -99,7 +99,7 @@ p {
 /* Menu */
 
 .menu {
-  background-image: url(/assets/bg.jpg);
+  background-image: url('assets/bg.jpg') no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
