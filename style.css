@@ -1,0 +1,443 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/* Background */
+
+.section:nth-child(even) {
+  background-color: #efe8e8;
+}
+
+.section:nth-child(odd) {
+  background-color: white;
+}
+
+.section .h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+
+
+/* Typography */
+
+.h1 {
+  font-size: 47px;
+  font-weight: 400;
+}
+
+.h2 {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.h3 {
+  font-size: 22px;
+  padding: 0px;
+  margin: auto;
+  margin-top: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  line-height: 35px;
+}
+
+p {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
+  width: 50%;
+}
+
+
+.header-title {
+  color: white;
+  text-shadow: 2px 3px black;
+  margin: auto;
+}
+
+.header-subtitle {
+  color: white;
+  text-shadow: 2px 3px black;
+}
+
+.github {
+  text-shadow: 1px 1px white;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.github img {
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+}
+
+.github:hover {
+  text-decoration: underline;
+}
+
+.step img {
+  width: 25px;
+  height: 25px;
+}
+
+/* Menu */
+
+.menu {
+  background-image: url(/assets/bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+/* Avatar */
+
+.avatar {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.avatar img {
+
+  width: 220px;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+
+/* Nav menu */
+
+.nav_menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+}
+
+.nav_list {
+  list-style: none;
+  font-size: 32px;
+  font-weight: 300;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  gap: 50px;
+}
+
+.nav-item {
+
+  padding: 5px 15px;
+  background-color: #1c0724;
+  box-shadow: inset 0px 4px 5px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  color: white;
+  transition: padding 300ms linear, background-color 500ms ease;
+}
+
+.nav-item:hover {
+  background-color: rgb(185, 154, 200);
+  padding: 5px 20px;
+}
+
+/* Contacts */
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.contact-icon {
+  width: 35px;
+  height: 35px;
+}
+
+.contact-value {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.contact-value a {
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  font-size: 18px;
+
+}
+
+.contact-value a:hover {
+  text-decoration: underline;
+}
+
+/* About myself */
+
+.section-about {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.section-about p {
+  text-indent: 45px;
+  padding-bottom: 30px;
+  margin: auto;
+}
+
+/* SKILLS */
+
+
+.section-skills ul {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.section-skills li {
+  list-style: none;
+}
+
+.section-skills p {
+  margin: 10px;
+}
+
+.container {
+  background-color: rgb(201, 196, 196);
+  box-shadow: inset 0px 4px 5px rgba(94, 87, 97, 0.7);
+}
+
+.skills {
+  font-size: 18px;
+  text-align: right;
+  padding: 5px;
+  color: white;
+  box-shadow: inset 2px 4px 4px rgba(94, 87, 97, 0.7);
+
+}
+
+.html {
+  width: 40%;
+  background-color: #2979a2;
+}
+
+.css {
+  width: 35%;
+  background-color: #b99ac8;
+}
+
+.figma {
+  width: 60%;
+  background-color: #65c7cf;
+}
+
+.js {
+  width: 10%;
+  background-color: #455e77;
+}
+
+/* Code */
+
+.section-code {
+  overflow: auto;
+}
+
+.codeblock {
+  background-color: rgba(231, 220, 220, 0.658);
+  width: fit-content;
+  padding: 20px;
+  border-left: 8px solid rgba(185, 154, 200, 1);
+  margin: auto;
+  box-shadow: inset 1px 4px 15px rgba(168, 139, 182, 0.9);
+  margin-bottom: 40px;
+}
+
+.code {
+  font-size: 24px;
+}
+
+/* Timeline */
+
+.section-education {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline {
+  list-style: none;
+  margin: auto;
+}
+
+.timeline-item {
+  line-height: inherit;
+  position: relative;
+}
+
+.timeline-item::before {
+  position: absolute;
+  left: 7px;
+  top: 10px;
+  content: '';
+  width: 15px;
+  height: 15px;
+  background-color: #7e539b;
+  transform: rotate(45deg);
+  transition: transform 500ms ease;
+}
+
+.timeline-item::after {
+  position: absolute;
+  content: '';
+  left: 14px;
+  top: 37px;
+  width: 2px;
+  height: calc(100% - 21px);
+  background-color: black;
+}
+
+.timeline-header {
+  margin-bottom: 30px;
+}
+
+.timeline-period {
+  display: inline-flex;
+  margin-left: 35px;
+  margin-bottom: 10px;
+  padding: 7px 10px;
+  background-color: black;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: white;
+  transition: padding 200ms linear, background-color 300ms ease;
+}
+
+.timeline-item:hover .timeline-period {
+  background-color: #7e539b;
+  padding-left: 20px;
+}
+
+.timeline-item:hover::before {
+  transform: rotate(-45deg);
+}
+
+.timeline-title {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-left: 35px;
+}
+
+.timeline-role {
+  font-size: 20px;
+  line-height: 28px;
+  color: #7e539b;
+  position: relative;
+  padding-left: 70px;
+  margin-bottom: 20px;
+}
+
+.timeline-role::before {
+  position: absolute;
+  left: 35px;
+  top: 50%;
+  transform: translateY(-50%);
+  content: '';
+  width: 30px;
+  height: 2px;
+  background-color: #7e539b;
+}
+
+.timeline-description {
+  width: 70%;
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: 34px;
+  background-color: rgb(191, 171, 199);
+  box-shadow: rgb(0 0 0 / 35%) 0px 4px 5px inset;
+  border-radius: 10px;
+  color: white;
+  padding: 8px;
+}
+
+
+.timeline-item p {
+  margin-top: -6px;
+  margin-left: 35px;
+  display: inline-flex;
+  padding: 7px 10px;
+  background-color: black;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: white;
+  transition: padding 200ms linear, background-color 300ms ease;
+}
+
+/* Projects */
+
+.section-projects .h2 {
+  padding-top: 30px;
+}
+
+.project h3 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.project {
+  text-align: center;
+}
+
+.img {
+  width: 50%;
+  margin: auto;
+  padding-bottom: 30px;
+  border-radius: 25px;
+  filter: drop-shadow(2px 4px 8px rgba(0, 0, 0, 0.87));
+}
+
+/* footer */
+
+.footer {
+  background: url('assets/bg.jpg') no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 200px;
+  flex-wrap: wrap;
+}
+
+.year-item {
+  font-size: 22px;
+}
+
+.github-item {
+  font-size: 24px;
+}

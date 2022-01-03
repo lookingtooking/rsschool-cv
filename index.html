@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV#3 Lukin Dmitry</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap"
+    rel="stylesheet">
+</head>
+<script src="index.js"></script>
+<body>
+  <header class="menu">
+    <div class="avatar">
+      <img width="220" height="220" src="assets/avatar.png" alt="Avatar">
+      <div>
+        <h1 class="h1 header-title">Dmitriy Lukin</h1>
+      </div>
+      <div>
+        <h3 class="h3 header-subtitle">Junior front-end developer </h3>
+      </div>
+    </div>
+    <nav class="nav_menu">
+      <ul class="nav_list">
+        <li><a class="nav-item" href="#contact">Contacts</a></li>
+        <li><a class="nav-item" href="#about">About</a></li>
+        <li><a class="nav-item" href="#skills">Skills</a></li>
+        <li><a class="nav-item" href="#code">Code</a></li>
+        <li><a class="nav-item" href="#edu">Education</a></li>
+        <li><a class="nav-item" href="#projects">Projects</a></li>
+
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="section section-contact">
+      <h2 id="contact" class="h2">Contacts</h2>
+      <ul class="contacts">
+        <li class="contact">
+          <img class="contact-icon" src="assets/5950417.png" alt="discord">
+          <span class="contact-value">
+            <a href="https://discord.gg/mUtswCnb">@lookeach#0879</a>
+          </span>
+        </li>
+        <li class="contact">
+          <img class="contact-icon" src="assets/gh-icon.png" alt="GitHub">
+          <span class="contact-value">
+            <a href="https://github.com/lookingtooking" target="_blank">lookingtooking</a>
+          </span>
+        </li>
+        <li class="contact">
+          <img class="contact-icon" src="assets/email-icon.png" alt="Email">
+          <span class="contact-value">
+            <a href="mailto:lukin.dmitri@inbox.ru">lukin.dmitri@inbox.ru</a>
+          </span>
+        </li>
+      </ul>
+    </section>
+    <section class="section section-about">
+      <h2 id="about" class="h2">About me</h2>
+      <p>My name is Dmitriy. Next spring I will be 30. My current occupation is Engineer, but now I'm trying to level
+        up
+        at front-end development because this occupation provides endless possibilities for professional growth. </p>
+    </section>
+    <section class="section section-skills">
+      <h2 id="skills" class="h2">Skills</h2>
+      <ul>
+        <li>
+          <p>HTML5</p>
+          <div class="container">
+            <div class="skills html">40%</div>
+          </div>
+        </li>
+
+        <li>
+          <p>CSS3</p>
+          <div class="container">
+            <div class="skills css">35%</div>
+          </div>
+        </li>
+
+        <li>
+          <p>Figma</p>
+          <div class="container">
+            <div class="skills figma">60%</div>
+          </div>
+        </li>
+
+        <li>
+          <p>Javascript</p>
+          <div class="container">
+            <div class="skills js">10%</div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="section section-code">
+      <h2 id="code" class="h2">Code example</h2>
+      <pre class="codeblock">
+          <code class="code">
+function isPrime(n) {
+      if (n < 2) { return false }
+  (let i = 2; i < n; i++) {
+    if (n % i === 0) {
+      return false;
+         } 
+       }
+      return true;
+      }</code>
+      </pre>
+    </section>
+    <section class="section section-education">
+      <h2 id="edu" class="h2">Education</h2>
+      <ul class="timeline">
+        <li class="timeline-item">
+          <span class="timeline-period">
+            September 2009 - January 2015
+          </span>
+          <div class="timeline-title">
+            Kalashnikov Izhevsk State Technical University
+          </div>
+          <div class="timeline-role">
+            Laser system and technlogies
+          </div>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-period">
+            September 2014 - May 2016
+          </span>
+          <div class="timeline-title">
+            Kalashnikov Izhevsk State Technical University
+          </div>
+          <div class="timeline-role">
+            Translator in the field of professional communication
+          </div>
+        </li>
+        <li class="timeline-item">
+          <p class="timeline-period">English level</p>
+          <div class="timeline-description">
+            Pre-intermediate / Intermediate (A2 / B1)
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section id="projects" class="section section-projects">
+      <h2 class="h2">Projects</h2>
+      <div class="project">
+        <h3>Figma landing page "Cakebuilding"</h3>
+        <a href="https://www.figma.com/file/aLbgVG9e4wTedsm9dqgFGn/Untitled" target="_blank">
+          <img class="img" src="assets/project1.JPG" alt="cakebuilding"></a>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="github-item">
+      <a class="github" href="https://github.com/lookingtooking" target="_blank">
+        <img width="25" height="25" src="assets/gh-icon.png" alt="GitHub">
+        lookingtooking
+      </a>
+    </div>
+    <div class="year-item">
+      &copy; 2021
+    </div>
+    <div class="rs-item">
+      <a class="rs" href="https://rs.school/js/" target="_blank">
+        <img width="95" height="34" src="assets/rs_school_js.svg" alt="RS School">
+      </a>
+    </div>
+  </footer>
+</body>
+</html>
