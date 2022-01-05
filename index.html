@@ -101,16 +101,13 @@
     <section class="section section-code">
       <h2 id="code" class="h2">Code example</h2>
       <pre class="codeblock">
-          <code class="code">
- function isPrime(n) {
-      if (n < 2) { return false }
-  (let i = 2; i < n; i++) {
-    if (n % i === 0) {
-      return false;
-         } 
-       }
-      return true;
-      }</code>
+        <code class="code">
+function isPrime(num) {
+  for (let i = 2; i &lt; num; i++)
+    if (num % i === 0) return false;
+  return num > 1;
+}
+        </code>
       </pre>
     </section>
     <section class="section section-education">
@@ -173,4 +170,5 @@
   </footer>
   <script src="index.js"></script>
 </body>
+
 </html>
